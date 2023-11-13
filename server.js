@@ -20,6 +20,7 @@ app.get("/health", (req, res) => {
 });
 
 app.post("/newContact", (req, res) => {
+    console.log(req)
     console.log(req.body)
 })
 
